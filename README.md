@@ -1,4 +1,4 @@
-# phodata
+<h1>PhoData</h1>
 A JavaScript library for creating placeholder data that follows a user-described schema.
 
 <h2>The Fake Data Creator</h2>
