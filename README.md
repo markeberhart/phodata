@@ -6,7 +6,9 @@ A JavaScript library for creating placeholder data that follows a user-described
 <p>When given a valid data schema, PhoData will create a JavaScript Object with placeholder data that corresponds to the quantity, standard, and precision outlined by the schema's description.</p>
 
 <h3>Use</h3>
-<p>PhoData utilizes a basic syntax to describe <i>how</i> a data object should be constructed. Currently supporting textual data, PhoData allows for a designer/developer, with just a few lines of code, to create placeholder data that can closely approximate a live data feed. Take the following example that creates a GEOJSON object:</p>
+<p>PhoData utilizes a basic syntax to describe <i>how</i> a data object should be constructed. Currently supporting textual data, PhoData allows for a designer/developer, with just a few lines of code, to create placeholder data that can closely approximate a live data feed. </p>
+<p></p>
+<p>Take the following example that creates a GEOJSON object:</p>
 
 	{
         "type":"geojson",
