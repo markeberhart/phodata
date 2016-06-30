@@ -1,8 +1,6 @@
 <h1>PhoData</h1>
 A JavaScript library for creating placeholder data that follows a user-described schema.
 
-<h2>The Fake Data Creator</h2>
-
 <h3>About</h3>
 <p>PhoData is a library for creating placeholder data that follows a user-described schema.</p>
 <p>When given a valid data schema, PhoData will create a JavaScript Object with placeholder data that corresponds to the quantity, standard, and precision outlined by the schema's description.</p>
