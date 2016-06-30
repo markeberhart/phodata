@@ -22,6 +22,6 @@ A JavaScript library for creating placeholder data that follows a user-described
 
 <h3>History</h3>
 <p>Many people are familiar with <i>Lorem ipsum</i>. Graphic designers have long used the ancient latin words of Cicero to provide visual filler when presenting ideas for publication layouts. PhoData is a modernized approach to this. 
-<p>Websites are not what they were when Tim Berners-Lee fired-up the first web page so long ago. Nowadays, websites are regularly populated by centralized data services. These data services are often varied and complex- a mixture of text, numbers, and other binary information. Not only is the information varied, but so too is the quantity, standard, and precision of the data being delivered in the service.</p>
+<p>Nowadays, websites are regularly populated by centralized data services. These data services are often varied and complex- a mixture of text, numbers, and other binary information. Not only is the information varied, but so too is the quantity, standard, and precision of the data being delivered in the service.</p>
 <p>Many designers have learned that picking up the trade of data visualization requires  
 </p>
