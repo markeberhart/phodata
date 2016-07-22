@@ -22,11 +22,11 @@
 </ul>
 <p>To get started, begin by  including the main library (phodata.js) and all support libraries you will need (each data type is a separate suport library in PhoData):</p>
 
-    &lt;script src="./phodata/phodata.js">&lt;/script><br />
-    &lt;script src="./phodata/plugins/phodata-csv.js">&lt;/script><br />
-    &lt;script src="./phodata/plugins/phodata-kml.js">&lt;/script><br />
-    &lt;script src="./phodata/plugins/phodata-geojson.js">&lt;/script><br />
-    &lt;script src="./phodata/plugins/phodata-arcjson.js">&lt;/script><br />
+    <script src="./phodata/phodata.js"></script>
+    <script src="./phodata/plugins/phodata-csv.js"></script>
+    <script src="./phodata/plugins/phodata-kml.js"></script>
+    <script src="./phodata/plugins/phodata-geojson.js"></script>
+    <script src="./phodata/plugins/phodata-arcjson.js"></script>
 
 <p>In order to create a new object, you simply pass your schema object to PhoData as follows:</p>
 <div class="code input">
