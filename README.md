@@ -74,19 +74,19 @@ var mydata = phodata.createData(myschema);<br />
 <h3>Example #1: Hello World</h3>
 <p>Here is a basic "Hello World" example that outputs a data object with the following parameters: CSV format, comma-separated, one field called "Notes", and 10 records that all have the exact value "Hello World"<br /><i>(Note the use of the "type":"custom" being used to force "Hello World" as our text value. No function is applied, so "func" is set to null.)</i></p>
 <h4>Input:</h4>
-<div class='code input'>
-var myschema = {
-"type":"csv",
-"columnDelimiter":",",
-"lineDelimiter":"\r\n",
-"totalRecords":10,
-"properties":[
-{"name":"Notes","type":"custom","values":["Hello World"],"func":null}
-]}
-<br />
-var mydata = phodata.createData(myschema);<br />
-console.log(mydata.data);
-</div>
+
+    var myschema = {
+    "type":"csv",
+    "columnDelimiter":",",
+    "lineDelimiter":"\r\n",
+    "totalRecords":10,
+    "properties":[
+    {"name":"Notes","type":"custom","values":["Hello World"],"func":null}
+    ]}
+	
+    var mydata = phodata.createData(myschema);<br />
+    console.log(mydata.data);
+
 <h4>Returns:</h4>
 <div id="ex1" class="code output">
 {"type":"csv","data":[["Notes"],["Hello World"],["Hello World"],["Hello World"],["Hello World"],["Hello World"],["Hello World"],["Hello World"],["Hello World"],["Hello World"],["Hello World"]]}
