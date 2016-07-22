@@ -11,7 +11,7 @@
 <p>The PhoData schema allows for the creation of fields/properties that support text, numbers, datetime, latitude, longitude, and custom function parameters. Additionally, PhoData supports the use of custom lists that you can supply based on your own needs.</p>
 
 
-<h3>Usage</h3>
+<h3>Usage & Getting Started</h3>
 <p>PhoData uses a JSON-based schema to define the data object you wish to create.</p>
 <p>Out-of-the-box, PhoData supports the following data formats:
 <ul>
