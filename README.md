@@ -21,13 +21,13 @@
 <li><b>ARCJSON</b> (ESRI JSON format)</li>
 </ul>
 <p>To get started, begin by  including the main library (phodata.js) and all support libraries you will need (each data type is a separate suport library in PhoData):</p>
-<div class="code input">
-&lt;script src="./phodata/phodata.js">&lt;/script><br />
-&lt;script src="./phodata/plugins/phodata-csv.js">&lt;/script><br />
-&lt;script src="./phodata/plugins/phodata-kml.js">&lt;/script><br />
-&lt;script src="./phodata/plugins/phodata-geojson.js">&lt;/script><br />
-&lt;script src="./phodata/plugins/phodata-arcjson.js">&lt;/script><br />
-</div>
+
+    &lt;script src="./phodata/phodata.js">&lt;/script><br />
+    &lt;script src="./phodata/plugins/phodata-csv.js">&lt;/script><br />
+    &lt;script src="./phodata/plugins/phodata-kml.js">&lt;/script><br />
+    &lt;script src="./phodata/plugins/phodata-geojson.js">&lt;/script><br />
+    &lt;script src="./phodata/plugins/phodata-arcjson.js">&lt;/script><br />
+
 <p>In order to create a new object, you simply pass your schema object to PhoData as follows:</p>
 <div class="code input">
 var myschema = {<i>[schema object definition]</i>};<br />
@@ -53,9 +53,7 @@ var mydata = phodata.createData(myschema);<br />
     console.log(mydata.data);
 
 <h4>Returns:</h4>
-<div id="ex1" class="code output">
-{"type":"csv","data":[["Notes"],["Hello World"],["Hello World"],["Hello World"],["Hello World"],["Hello World"],["Hello World"],["Hello World"],["Hello World"],["Hello World"],["Hello World"]]}
-</div>
+	{"type":"csv","data":[["Notes"],["Hello World"],["Hello World"],["Hello World"],["Hello World"],["Hello World"],["Hello World"],["Hello World"],["Hello World"],["Hello World"],["Hello World"]]}
 
 <p><br />
 <h3>Example #2: Hello World with Random Values</h3>
