@@ -88,7 +88,9 @@ var mydata = phodata.createData(myschema);<br />
 console.log(mydata.data);
 </div>
 <h4>Returns:</h4>
-<div id="ex1" class="code output"></div>
+<div id="ex1" class="code output">
+{"type":"csv","data":[["Notes"],["Hello World"],["Hello World"],["Hello World"],["Hello World"],["Hello World"],["Hello World"],["Hello World"],["Hello World"],["Hello World"],["Hello World"]]}
+</div>
 
 <p><br />
 <h3>Example #2: Hello World with Random Values</h3>
@@ -181,9 +183,6 @@ function download(){
 	phodata.downloadData(data);
 }
 
-var _ex1schema = {"type":"csv","columnDelimiter":",","lineDelimiter":"\r\n","totalRecords":10,"properties":[{"name":"Notes","type":"custom","values":["Hello World"],"func":null}]};
-var _ex1data = phodata.createData(_ex1schema);
-document.getElementById('ex1').innerHTML = JSON.stringify(_ex1data);
 
 var _ex2schema = {"type":"csv","columnDelimiter":",","lineDelimiter":"\r\n","totalRecords":10,"properties":[{"name":"Notes","type":"custom","values":["Hello","World"],"func":null}]};
 var _ex2data = phodata.createData(_ex2schema);
