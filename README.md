@@ -29,10 +29,10 @@
     <script src="./phodata/plugins/phodata-arcjson.js"></script>
 
 <p>In order to create a new object, you simply pass your schema object to PhoData as follows:</p>
-<div class="code input">
-var myschema = {<i>[schema object definition]</i>};<br />
-var mydata = phodata.createData(myschema);<br />
-</div>
+
+    var myschema = {<i>[schema object definition]</i>};
+    var mydata = phodata.createData(myschema);
+
 <p>In return, PhoData will provide an object with two sub-objects: <i>type</i> and <i>data</i>. In others words, in the example above, to get the actual data object being returned, you would need to access <i>mydata.data</i>.
 
 <p><br />
