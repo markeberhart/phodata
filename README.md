@@ -5,26 +5,26 @@
 <title>Data Creator</title>
 <style>
 body {
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:12;
-	margin:25px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12;
+margin:25px;
 }
 p {
-	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size:1.0em;
-	padding:5px;	
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:1.0em;
+padding:5px;	
 }
 .code {
-	font-family:"Courier New", Courier, monospace;
-	font-size:.8em;
-	padding:15px;
+font-family:"Courier New", Courier, monospace;
+font-size:.8em;
+padding:15px;
 }
 .input {
-	color:#36C;
+color:#36C;
 }
 .output {
-	color:#F63;
-	border:#999 1px solid;
+color:#F63;
+border:#999 1px solid;
 }
 </style>
 
@@ -75,14 +75,14 @@ var mydata = phodata.createData(myschema);<br />
 <p>Here is a basic "Hello World" example that outputs a data object with the following parameters: CSV format, comma-separated, one field called "Notes", and 10 records that all have the exact value "Hello World"<br /><i>(Note the use of the "type":"custom" being used to force "Hello World" as our text value. No function is applied, so "func" is set to null.)</i></p>
 <h4>Input:</h4>
 <div class='code input'>
-```var myschema = {
-```"type":"csv",
-```"columnDelimiter":",",
-```"lineDelimiter":"\r\n",
-```"totalRecords":10,
-```"properties":[
-```{"name":"Notes","type":"custom","values":["Hello World"],"func":null}
-```]}
+var myschema = {
+"type":"csv",
+"columnDelimiter":",",
+"lineDelimiter":"\r\n",
+"totalRecords":10,
+"properties":[
+{"name":"Notes","type":"custom","values":["Hello World"],"func":null}
+]}
 <br />
 var mydata = phodata.createData(myschema);<br />
 console.log(mydata.data);
