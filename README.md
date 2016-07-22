@@ -2,7 +2,7 @@
 <h2>The Placeholder Data Creator</h2>
 
 <h3>About</h3>
-<p>PhoData is a library for creating placeholder data that follows a user-described schema.</p>
+<p>PhoData is a no-strings-attached JavaScript library for creating placeholder data that follows a user-described schema.</p>
 <p>Nowadays, websites are regularly populated by centralized data services. These data services are often varied and complex- a mixture of text, numbers, and other binary information. Not only is the information varied, but so too is the quantity, standard, and precision of the data being delivered in the service.</p>
 <p>Many people are familiar with <i>Lorem ipsum</i>. Graphic designers have long used the ancient latin words of Cicero to provide visual filler when presenting ideas for publication layouts. PhoData is a modernized approach to this.</p>
 <p>When given a valid data schema, PhoData will create a JavaScript Object with placeholder data that corresponds to the quantity, standard, rules, and precision outlined by the schema's description.</p>
